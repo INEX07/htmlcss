@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Play|Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">
+            <a href="#">Website</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body-content">
+        <h1 id="text">My Website</h1>
+        <h3>Just a random website! 😊😊</h3>
+        <button onclick="button()">Text!</button>
+        <button onclick="time()">Time!</button>
+    </div>
+    <div class="footer">
+        <h3 id="time">Showing Time</h3>
+    </div>
+    <script>
+        function button() {
+            var arr = [
+                "Hello",
+                "My Website",
+                "Lol",
+                "Don't rape me",
+                "Alan Walker",
+                "Anal Walker",
+                "69: OMGG! That's the sex number"
+            ];
+            let statement = document.getElementById("text");
+            let random = Math.floor(Math.random() * arr.length);
+            statement.innerHTML = arr[random];
+        }
+        function time() {
+            setInterval(() => {
+
+                document.getElementById("time").innerHTML = new Date();
+
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
