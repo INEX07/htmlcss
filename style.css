@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 7vh;
+    background-image: linear-gradient(to right, #333333, #221f1f);
+}
+
+.brand a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-family: 'Play', sans-serif;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
+.nav-links {
+    float: right;
+}
+
+.active {
+    color: #ebebeb !important;
+}
+
+.nav-links a:hover {
+    color: #ebebeb;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+body {
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/80339917950222998/8B04E80E405A50648D52ADB3618FADA25840B0ED/");
+    background-size: cover;
+}
+
+.body-content {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.body-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Play', sans-serif;
+    text-shadow: 2px 2px rgb(34, 33, 33);
+}
+
+.body-content h3 {
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    text-shadow: 2px 2px rgb(34, 33, 33);
+}
+
+button {
+    background-color: rgb(46, 46, 46);
+    width: 10%;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 32px;
+    margin-top: 55px;
+}
+
+.footer {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
