@@ -1,5 +1,5 @@
 # htmlcss
-A random htmlcss
+random htmlcss
 
 # Preview
 ![Image](https://github.com/INEX07/htmlcss/blob/master/image.png)
